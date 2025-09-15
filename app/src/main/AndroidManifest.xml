@@ -12,9 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Twoforsix">
         <activity
-            android:name=".DetailActivity"
-            android:parentActivityName=".HomeActivity"
+            android:name=".KreditKelompok2"
             android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
